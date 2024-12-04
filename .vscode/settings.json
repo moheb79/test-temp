@@ -1,0 +1,226 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "afterDelay",
+  "editor.fontFamily": "'Fira Code' , 'B Koodak'",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "export",
+          "function",
+          "component",
+          "react",
+          "entity.name.type.class",
+          "constant",
+          "storage.modifier",
+          "storage.type.class.js"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "invalid",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontFamily": "'Fira Code'",
+  "terminal.integrated.fontSize": 14,
+  "editor.inlineSuggest.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ffff00",
+    "terminalCursor.foreground": "#ffff00",
+    "parameterHints.hintBackground": "#4dadbe20",
+    "parameterHints.hintForeground": "#2abbbb",
+    "terminal.background": "#00000000"
+  },
+  "material-icon-theme.folders.color": "#e0ab24",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "prettier.printWidth": 120,
+  "comment-divider.languagesMap": {
+    "javascript": ["//"]
+  },
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#62C3FF",
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#D2D2D2",
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "--",
+      "color": "#FFFFFF",
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "@@",
+      "color": "#FFFFFF",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#FF0000",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "@link:",
+      "color": "#7799ff",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#aaaaff22",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "info:",
+      "color": "#FFFFFFEE",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#0353a196",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "editor.matchBrackets": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.accessibilitySupport": "off",
+
+  "material-icon-theme.languages.associations": {},
+  "todo-tree.general.showActivityBarBadge": true,
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "fontWeight": "bold",
+      "background": "#ff8c0023",
+      "type": "whole-line",
+      "opacity": 0.7
+    },
+    "BUG": {
+      "icon": "bug"
+    },
+    "HACK": {
+      "icon": "tools"
+    },
+    "FIXME": {
+      "icon": "flame",
+      "type": "whole-line"
+    },
+    "XXX": {
+      "icon": "x"
+    },
+    "[ ]": {
+      "icon": "issue-draft"
+    },
+    "[x]": {
+      "icon": "issue-closed"
+    }
+  },
+  "importCost.fontStyle": "italic",
+  "importCost.smallPackageDarkColor": "#00ff00 ",
+  "importCost.smallPackageLightColor": "#00ff00 ",
+  "importCost.mediumPackageDarkColor": "#ffff00 ",
+  "importCost.mediumPackageLightColor": "#ffff00 ",
+  "todo-tree.general.tagGroups": {},
+  "gitlens.proxy": {},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.cursorBlinking": "expand",
+  "workbench.settings.applyToAllProfiles": ["workbench.colorCustomizations"],
+  "terminal.integrated.fontWeight": "normal",
+  "git.confirmSync": false,
+  "parameterHints.languages": [
+    "php",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "parameterHints.padding": "5 5",
+  "editor.lineHeight": 25,
+  "parameterHints.hintingType": "variableOnly",
+  "parameterHints.margin": "0 2",
+  "black-formatter.path": ["black"],
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "cloudcode.duetAI.project": "frontrms",
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "terminal.integrated.env.osx": {},
+  "window.titleBarStyle": "custom",
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": [
+    "file:///c:/Users/ui29/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+  ],
+  "workbench.colorTheme": "One Dark Pro",
+  "terminal.integrated.env.linux": {}
+}
